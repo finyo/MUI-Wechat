@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/commonStyle.css"/>
+		<link rel="stylesheet" href="css/chatRoom.css" />
+	</head>
+	<body>
+	    <header class="headerTitle mui-bar mui-bar-nav">
+	        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	        <h1 class="mui-title"></h1>
+	    </header>
+	    <div class="talkNews mui-content">
+	        <div class="friendNews">
+		        <img id="friendHpic" class="friendImg mui-media-object mui-pull-left" src="./hpic/GaGa.jpg"><span id="friendmsg"></span>
+		    </div>  
+	    </div>
+	    
+	    <div class="bottomContent mui-content">
+	        <div class="mui-input-row">
+	            <label class="send">send</label>
+	            <input id="speechMsg" type="text" class="mui-input-speech mui-input-clear" placeholder="">
+	        </div>	        
+	    </div>
+        <script src="js/chatRoom.js"></script>
+	</body>
+
+</html>

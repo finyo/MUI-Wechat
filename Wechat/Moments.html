@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init();
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/commonStyle.css"/>
+         <link rel="stylesheet" type="text/css" href="css/mome.css"/>
+	</head>
+
+	<body>
+       <header class="headerTitle mui-bar mui-bar-nav">
+           <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"><span>Discover</span></a>
+           <h1 class="mui-title">Moments</h1>
+           <a href="#sheet" id="openSheet" class="openSheet mui-btn mui-btn-primary mui-btn-block"><span class="mui-icon mui-icon-camera"></span></a>
+       </header>
+       <div class="myMsg">
+       <img class="mentBak" src="./hpic/moment.jpg" alt="" />
+       <div>
+		 <span>Finyo</span><img id="friendHpic" class="friendImg mui-media-object mui-pull-right" src="./hpic/me.jpg">
+	   </div>  
+       </div> 
+       
+       <div id="sheet" class="mui-popover mui-popover-bottom mui-popover-action ">
+           <!-- 可选择菜单 -->
+           <ul class="mui-table-view">
+             <li class="mui-table-view-cell">
+               <a id="openCamera" href="#">Camera</a>
+             </li>
+             <li class="mui-table-view-cell">
+               <a id="gallary" href="#">Choose from Album</a>
+             </li>
+           </ul>
+           <!-- 取消菜单 -->
+           <ul class="mui-table-view">
+             <li class="mui-table-view-cell">
+                <a href="#sheet" id="openSheet">Cancel</a>
+             </li>
+           </ul>
+       </div>
+       
+     
+ <script src="js/moment.js"></script>
+	</body>
+
+</html>

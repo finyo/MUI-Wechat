@@ -1,0 +1,93 @@
+[ 
+{ 
+"name":"Katy", 
+"msg":"what are you doing?", 
+"hpic" :"Katy.jpg",
+"time":"21:06" 
+}, 
+{ 
+"name":"ecil", 
+"msg":"no,that's not a good idea!", 
+"hpic" :"ecil.jpg",
+"time":"21:01" 
+},  
+{ 
+"name":"Asa", 
+"msg":"ni hao!", 
+"hpic" :"Asa.jpg",
+"time":"21:00" 
+}, 
+{ 
+"name":"Chanlie", 
+"msg":"no,that's not a good idea!", 
+"hpic" :"Chanlie.jpg",
+"time":"21:01" 
+}, 
+{ 
+"name":"Huiqiao", 
+"msg":"", 
+"hpic" :"Huiqiao.jpg",
+"time":"21:01" 
+}, 
+{ 
+"name":"Minhao", 
+"msg":"no!", 
+"hpic" :"Minhao.jpg",
+"time":"21:01" 
+}, 
+{ 
+"name":"Shixun", 
+"msg":"YOU r HANSOME!", 
+"hpic" :"Shixun.jpg",
+"time":"21:01" 
+}, 
+{ 
+"name":"Juster", 
+"msg":"sure,that's right!", 
+"hpic" :"Juster.jpg",
+"time":"21:00" 
+},
+{ 
+"name":"Adeal", 
+"msg":"Hello,it's me.", 
+"hpic" :"Adeal.jpg",
+"time":"20:50" 
+},
+{ 
+"name":"Sara", 
+"msg":"well well well.", 
+"hpic" :"Sara.jpg",
+"time":"20:10" 
+},
+{ 
+"name":"Amer", 
+"msg":"ok,just fine", 
+"hpic" :"Amer.jpg",
+"time":"20:30" 
+},
+{ 
+"name":"Gelly", 
+"msg":"nice to meet u!", 
+"hpic" :"Gelly.jpg",
+"time":"22:15" 
+},
+{ 
+"name":"GaGa", 
+"msg":"I love you!", 
+"hpic" :"GaGa.jpg",
+"time":"22:11" 
+},
+{ 
+"name":"JsonK", 
+"msg":"Fuck u!", 
+"hpic" :"JsonK.jpg",
+"time":"22:05" 
+},
+{ 
+"name":"Rihanna", 
+"msg":"kiss with you!", 
+"hpic" :"Rihanna.jpg",
+"time":"19:21" 
+}       
+
+] 

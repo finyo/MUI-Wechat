@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/commonStyle.css"/>
+		<link rel="stylesheet" type="text/css" href="css/sureSend.css"/>
+	</head>
+       <header class="headerTitle mui-bar mui-bar-nav">
+           <a class="mui-action-back mui-pull-left">cancel</a>
+           <button id="send" type="button" class="mui-btn mui-btn-green">send</button>
+       </header>
+	<body>
+		 <div class="mui-content">
+           <div class="mui-input-row">
+               <input id="msg" type="text" placeholder="Say Something">
+           </div>
+           <div class="imgLst">         
+           <div id="msgDiv" src="./mentPic/1.jpg" alt="" /></div>
+           </div>
+          <ul class="mui-table-view">
+                   <li class="mui-table-view-cell">
+                       <a class="mui-navigate-right">
+                            <span class="iconSpan mui-icon mui-icon-location"></span>Location
+                       </a>
+                   </li>
+          </ul>
+          
+       </div>
+       <div class="groupMenu">
+        <ul class="mui-table-view">
+                   <li class="mui-table-view-cell">
+                       <a class="mui-navigate-right">
+                           <span class="iconSpan mui-icon mui-icon-paperplane"></span>Share to
+                       </a>
+                   </li>
+                   <li class="mui-table-view-cell">
+                       <a class="mui-navigate-right">
+                           <span class="iconSpan mui-icon mui-icon-chatboxes"></span>Mention
+                       </a>
+                   </li>
+        </ul>
+       </div>
+       
+<script src="js/sureSend.js"></script>
+	</body>
+
+</html>

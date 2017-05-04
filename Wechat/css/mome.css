@@ -1,0 +1,51 @@
+	.mui-action-back{
+				color:white;	
+			}
+			.mui-action-back>span{
+				color:white;
+				font-size:1rem;
+			}
+		    .openSheet{
+		    	width: 10%;
+		    	background:transparent;
+		    	border:white;
+		    	float: right;
+		    	margin-top:1rem;
+		    }
+			.mentBak{
+				margin-top:3rem;
+				width: 100%;
+				height:15rem;
+			}
+			.myMsg{
+				width: 100%;
+				position: relative;
+				margin-bottom:3rem;
+			}
+			.myMsg>div{
+				position: absolute;
+				bottom:-1.5rem;
+				right:1rem;
+			}
+			.myMsg>div>span{
+				line-height:5rem;
+				margin-right:0.8rem;
+				color:white;
+			}
+			.myMsg>div>img{
+				width:5.4rem;
+				height:5.4rem;
+				border:0.1rem solid #FFFFFF;
+				outline:0.05rem solid #ACACB4;
+			}
+			.mui-card-header p{
+				color:#222222;
+				letter-spacing:0..5rem;
+			}
+			.msgBox>img{
+				max-width:12rem;	
+				margin-top:.5rem;		
+			}
+			#sheet ul li >a {
+				color:#222222;
+			}

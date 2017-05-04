@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<link rel="stylesheet" href="css/commonStyle.css" />
+		<link rel="stylesheet" href="css/discover.css" />
+	</head>
+	<body>
+		<header class="headerTitle mui-bar mui-bar-nav">
+	        <h1 class="mui-title">Discover</h1> 
+	    </header>
+	<div class="mui-content">
+	    <ul class="mui-table-view">
+	        <li id="moments" class="mui-table-view-cell mui-media">
+	            <a href="javascript:;">
+	            	<span class="newFirend friendsmenu mui-pull-left iconfontyyy">&#xe604;</span>
+	                <div class="mui-media-body friends">Moments<span class="rspan mui-icon mui-icon-forward"></span></div>
+	            </a>
+	        </li>
+	    </ul>
+	</div>
+	<div class="groupClass">
+	    <ul class="mui-table-view">
+	        <li class="mui-table-view-cell mui-media">
+	            <a href="javascript:;">
+	            	<span class="newFirend friendsmenu mui-pull-left iconfontyyy">&#xe602;</span>
+	                <div class="mui-media-body friends">Scan QR Code<span class="rspan mui-icon mui-icon-forward"></span></div>
+	            </a>
+	        </li>
+	         <li class="mui-table-view-cell mui-media">
+	            <a href="javascript:;">
+	            	<span class="newFirend friendsmenu mui-pull-left iconfontyyy">&#xe685;</span>
+	                <div class="mui-media-body friends">Shake<span class="rspan mui-icon mui-icon-forward"></span></div>
+	            </a>
+	        </li>
+	    </ul>
+	</div>
+	
+	<div class="groupClass">
+	    <ul class="news mui-table-view">
+	        <li class="mui-table-view-cell mui-media">
+	            <a href="javascript:;">
+	            	<span class="newFirend friendsmenu mui-pull-left iconfontyyy">&#xe608;</span>
+	                <div class="mui-media-body friends">People Nearby<span class="rspan mui-icon mui-icon-forward"></span></div>
+	            </a>
+	        </li>
+	         <li class="mui-table-view-cell mui-media">
+	            <a href="javascript:;">
+	            	<span class="newFirend friendsmenu mui-pull-left iconfontyyy">&#xe60d;</span>
+	                <div class="mui-media-body friends">Message in a Bottle<span class="rspan mui-icon mui-icon-forward"></span></div>
+	            </a>
+	        </li>
+	    </ul>
+	</div>
+	
+	<div class="groupClass">
+	    <ul class="news mui-table-view">
+	        <li class="mui-table-view-cell mui-media">
+	            <a href="javascript:;">
+	            	<span class="newFirend friendsmenu mui-pull-left iconfontyyy">&#xe61d;</span>
+	                <div class="mui-media-body friends">Games<span class="rspan mui-icon mui-icon-forward"></span></div>
+	            </a>
+	        </li>
+	    </ul>
+	</div>
+	
+	<div class="groupClass">
+	    <ul class="news mui-table-view">
+	        <li class="mui-table-view-cell mui-media">
+	            <a href="javascript:;">
+	            	<span class="newFirend friendsmenu mui-pull-left iconfontyyy">&#xe60e;</span>
+	                <div class="mui-media-body friends">Mini Programs<span class="rspan mui-icon mui-icon-forward"></span></div>
+	            </a>
+	        </li>
+	    </ul>
+	</div>
+	<script type="text/javascript">
+			var moments = document.getElementById('moments');
+			moments.addEventListener('touchend',openMoments);
+			
+			function openMoments(){
+				
+				mui.openWindow({
+					
+						url:"Moments.html",
+						
+						id:"Moments.html",
+						
+						createNew: false,
+				
+						show:{
+							autoShow:true,
+							aniShow:'slide-in-right',
+							duration:100
+						}
+						
+	        	});
+			}
+	</script>
+	
+	</body>
+</html>

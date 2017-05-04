@@ -1,0 +1,35 @@
+[ 
+{ 
+"name":"Katy", 
+"msg":"Wow This Bear So Cute", 
+"hpic" :"Katy.jpg",
+"mpic" : "1.jpg",
+"time":"1mins" 
+}, 
+{ 
+"name":"Aicikeys", 
+"msg":"Lunch Time!", 
+"hpic" :"ecil.jpg",
+"mpic" : "2.jpg",
+"time":"15mins" 
+},  
+{ 
+"name":"Chanlie", 
+"msg":"I love Guangzhou,which nice city!", 
+"hpic" :"Chanlie.jpg",
+"time":"1hours" 
+}, 
+{ 
+"name":"Minhao", 
+"msg":"Don’t give up!", 
+"hpic" :"Minhao.jpg",
+"time":"2hours" 
+}, 
+{ 
+"name":"Juster", 
+"msg":"The Bitch is So hot!", 
+"hpic" :"Juster.jpg",
+"mpic" : "3.jpg",
+"time":"2hours" 
+}
+] 
